@@ -8,10 +8,10 @@ import time
 def user_info():
     user_config = [
         {
-            'bookholder': '王伟',
-            'mobile': '17610335688',
-            'wxopenid': 'oi6_W5XtzwFv2yW6sayrxfELs1bU',
-            'unionid': 'o3eng1FSnov_M25aGMCcm49H4syY'
+            'bookholder': '',
+            'mobile': '',
+            'wxopenid': '',
+            'unionid': ''
         }
     ]
     return user_config
@@ -79,8 +79,8 @@ class Wx_post():
 
             pay_url = "https://sapb.szosc.cn/index.php/yinlian/index/pay"
             data = {
-                'bookholder': '王伟',
-                'mobile': '17610335688',
+                'bookholder': '',
+                'mobile': '',
                 "idno": '',
                 'outtradeno': outtradeno,
                 'ordtotal_fee': ordtotal_fee,
